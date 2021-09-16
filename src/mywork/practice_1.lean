@@ -1,3 +1,6 @@
+--Ostrich 
+--AKV6ZR https://github.com/aneeshvittal1/cs2120f21/blob/main/src/mywork/practice_1.lean
+
 /-
 EQUALITY
 -/
