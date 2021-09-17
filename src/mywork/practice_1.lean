@@ -1,6 +1,6 @@
 --Ostrich 
 --AKV6ZR, AS9VD 
---https://github.com/aneeshvittal1/cs2120f21/blob/main/src/mywork/practice_1.lean
+--https://github.com/aneeshvittal1/cs2120f21/blob/main/src/mywork/practice_1.lean.
 
 /-
 EQUALITY
