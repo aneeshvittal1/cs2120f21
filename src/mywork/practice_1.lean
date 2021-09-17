@@ -1,5 +1,5 @@
 --Ostrich 
---AKV6ZR , WRW2ZTK, AS9VD 
+--AKV6ZR, AS9VD 
 --https://github.com/aneeshvittal1/cs2120f21/blob/main/src/mywork/practice_1.lean
 
 /-
