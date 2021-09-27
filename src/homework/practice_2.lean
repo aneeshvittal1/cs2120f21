@@ -9,8 +9,9 @@ Your English language proofs should be complete
 in the sense that they identify all the axioms
 and/or theorems that you use.
 -/
-
 --example : true := _
+
+example : true := true.intro
 
 --example : false := _    -- trick question? why?
 
@@ -39,6 +40,20 @@ begin
 --backward
   assume p,
   exact or.intro_left P p,
+  assume P, 
+  apply iff.intro _ _,
+  -- forward
+    assume porp,
+    apply or.elim porp,
+    -- left disjunct is true
+      assume p,
+      exact p,
+    -- right disjunct is true
+      assume p,
+      exact p,
+  -- backwards
+    assume p,
+    exact or.intro_left P p,
 end
 
 /- Assuming we have an object P of type Prop, we can split this statement up into both forwards and backwards cases.
