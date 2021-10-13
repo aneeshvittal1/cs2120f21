@@ -77,7 +77,14 @@ in the following expression: (apply pf).
 
 
 -/
+axioms
+(Ball : Type)
+(blue : Ball → Prop)
+(allBallsBlue : ∀ ( b : Ball), blue b)
+(tomsBall : Ball)
 
+theorem tomsBallIsBlue : blue tomsBall := 
+allBallsBlue tomsBall
 /-
 IMPLIES: →
 
